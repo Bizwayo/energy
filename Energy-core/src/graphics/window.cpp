@@ -38,6 +38,10 @@ namespace energy {
 			glfwMakeContextCurrent(my_Window);
 			glfwSetWindowSizeCallback(my_Window, windowResize);
 
+			if (glewInit() != GLEW_OK) {
+				std::cout << "GLEW NOT INITIALIZED" << std::endl;
+				return false;
+			}
 			return true;
 		}
 
