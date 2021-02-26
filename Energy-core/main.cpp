@@ -1,8 +1,11 @@
 #include "src/graphics/window.h"
+#include "src/maths/maths.h"
+
 
 int main() {
 	using namespace energy;
 	using namespace graphics;
+	using namespace maths;
 
 	int w = 500, h = 500;
 

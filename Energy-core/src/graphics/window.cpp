@@ -1,5 +1,6 @@
 #include "window.h"
 
+
 namespace energy {
 	namespace graphics {
 
