@@ -1,2 +1,2 @@
 # energy
-This is a game engine that I will try to update as much as possible over the coming months
+This is a game engine I am working on using C++ and OpenGL/GLM
